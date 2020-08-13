@@ -128,7 +128,7 @@ namespace SignalRChat
         public MongoCRUD(string database)
         {
             // Connection to relevant MongoDB cluster
-            var client = new MongoClient("mongodb+srv://darren:dembaba19@clusterairlinenodes-c6yeq.mongodb.net/test?retryWrites=true&w=majority");
+            var client = new MongoClient("########");
             // Variable for database reference
             db = client.GetDatabase(database);
         }
